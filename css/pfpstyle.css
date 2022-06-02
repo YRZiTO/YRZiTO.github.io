@@ -1,26 +1,25 @@
-
-.profile-pic-div{
+.profile-pic-div {
     height: 350px;
     width: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid grey;
 }
 
-#photo{
+#photo {
     height: 100%;
     width: 100%;
 }
 
-#file{
+#file {
     display: none;
 }
 
-#uploadBtn{
+#uploadBtn {
     height: 40px;
     width: 100%;
     position: absolute;

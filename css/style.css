@@ -76,15 +76,18 @@ body {
     font-weight: 600;
     margin-left: 100%;
 }
+
 #pdfViewer {
     margin-top: 5%;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 5%;
 }
+
 #topEmptySpace {
     margin-bottom: 2.5%;
 }
+
 #bottomEmptySpace {
     margin-top: 5%;
 }
@@ -103,9 +106,11 @@ body {
     border-radius: 50%;
     background: black;
 }
+
 .switchTheme:focus {
     background-color: #171515;
 }
+
 .fa-sun:hover {
     color: yellow;
     background: black;
