@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Yousif's Portfolio</title>
+    <link rel="icon" type="image/png" href="asset/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/theme.js"></script>
+
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-xxl bg-dark navbar-dark">
+        <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="/">YOUSIFZITO.COM</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item  me-auto">
+                    <button id="switchTheme" class="switchTheme">
+                        <i class="fa-solid fa-sun  fa-2x"></i>
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!-- PDF VIEWER START-->
+    <div class="container">
+        <div id="topEmptySpace"></div>
+        <div class="backToHome_component">
+            <a href="/">
+                <div id="backToHome">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    Back to Home
+                </div>
+            </a>
+        </div>
+
+        <div id="pdfViewer">
+            <object data="resume/resume.pdf#view=FitH" type="application/pdf"
+                style="min-height:100vh;width:100%"></object>
+        </div>
+        <div id="bottomEmptySpace"></div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="bg-dark text-center text-white mt-auto">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Made with <i id="heart" class="fa-solid fa-heart"></i> by Yousif Zito
+        </div>
+    </footer>
+    <!-- Footer END -->
+</body>
+
+</html>

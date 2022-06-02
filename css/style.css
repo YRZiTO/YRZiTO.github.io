@@ -1,0 +1,122 @@
+html,
+body {
+    background-color: #1f2937;
+    /* height: 100%; */
+}
+
+.fa-heart {
+    color: red;
+}
+
+.fa-heart:hover {
+    color: #69359c;
+}
+
+.avatar {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+    margin-top: 10%;
+}
+
+.headline {
+    margin-top: 1%;
+}
+
+/* .socials {
+    margin: 35px;
+    color: rgb(249, 250, 251);
+} */
+
+#github {
+    color: white;
+}
+
+#github:hover {
+    color: #171515;
+}
+
+#twitter {
+    color: white;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
+}
+
+#linkedin {
+    color: white;
+}
+
+#linkedin:hover {
+    color: #0A66C2;
+}
+
+#email {
+    color: white;
+}
+
+#email:hover {
+    color: brown;
+}
+
+#myButton {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+
+#backToHome {
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 100%;
+}
+#pdfViewer {
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+#topEmptySpace {
+    margin-bottom: 2.5%;
+}
+#bottomEmptySpace {
+    margin-top: 5%;
+}
+
+
+/* Start of switchTheme */
+.switchTheme {
+    font-weight: 600;
+    margin: auto 2px auto auto;
+    white-space: nowrap;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: black;
+}
+.switchTheme:focus {
+    background-color: #171515;
+}
+.fa-sun:hover {
+    color: yellow;
+    background: black;
+    border-radius: 50%;
+}
+
+.fa-sun {
+    cursor: pointer;
+    color: white;
+    background: black;
+    border-radius: 50%;
+}
+
+/* End of switchTheme */
