@@ -75,6 +75,7 @@ body {
     font-size: 1.5em;
     font-weight: 600;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 46.5em;
 }
 
@@ -88,12 +89,29 @@ body {
 #pdfViewer {
 >>>>>>> parent of 9081445 (pdfViewer class modified)
     background-color: white;
+=======
+    margin-left: 86%;
+}
+
+#pdfViewer {
+    /* height: 100%;
+    width: 100%; */
+>>>>>>> 90814452335791337524580ea0967881b8656ced
     margin-top: 5%;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 5%;
 }
-
+iframe {
+    display: block;
+    /* iframes are inline by default */
+    background: white;
+    border: none;
+    /* Reset default border */
+    min-height: 100vh;
+    /* Viewport-relative units */
+    min-width: 100%;
+} 
 #topEmptySpace {
     margin-bottom: 2.5%;
 }
