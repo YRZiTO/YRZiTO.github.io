@@ -74,29 +74,12 @@ body {
     white-space: nowrap;
     font-size: 1.5em;
     font-weight: 600;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin-left: 46.5em;
 }
 
 #pdfViewer {
     /* height: 100%;
     width: 100%; */
-=======
-    margin-left: 100%;
-}
-
-#pdfViewer {
->>>>>>> parent of 9081445 (pdfViewer class modified)
-    background-color: white;
-=======
-    margin-left: 86%;
-}
-
-#pdfViewer {
-    /* height: 100%;
-    width: 100%; */
->>>>>>> 90814452335791337524580ea0967881b8656ced
     margin-top: 5%;
     margin-left: 0%;
     margin-right: 0%;
