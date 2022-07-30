@@ -74,17 +74,28 @@ body {
     white-space: nowrap;
     font-size: 1.5em;
     font-weight: 600;
-    margin-left: 100%;
+    margin-left: 46.5em;
 }
 
 #pdfViewer {
+    /* height: 100%;
+    width: 100%; */
     background-color: white;
     margin-top: 5%;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 5%;
 }
-
+iframe {
+    display: block;
+    /* iframes are inline by default */
+    background: white;
+    border: none;
+    /* Reset default border */
+    min-height: 100vh;
+    /* Viewport-relative units */
+    min-width: 100%;
+} 
 #topEmptySpace {
     margin-bottom: 2.5%;
 }
