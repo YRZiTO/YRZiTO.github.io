@@ -101,12 +101,14 @@
     background-color: #008080 !important;
     border-color: #054242;
 }
+
 .btn-primary:hover {
     background-color: #005959 !important;
     border-color: #005959;
 
 }
-.btn-primary:active{
+
+.btn-primary:active {
     background-color: #008080 !important;
     border-width: 5px;
 }
@@ -144,7 +146,8 @@
     height: 100vh;
     /* margin-top: 5%; */
     margin-bottom: 5%;
-    overflow: auto; /* Enable scrolling if necessary */
+    overflow: auto;
+    /* Enable scrolling if necessary */
 }
 
 .pdf-container {
@@ -163,24 +166,54 @@ object {
 }
 
 iframe {
-    display: block; /* iframes are inline by default */
+    display: block;
+    /* iframes are inline by default */
     background: #ffffff;
-    border: none; /* Reset default border */
-    min-height: 100vh; /* Viewport-relative units */
+    border: none;
+    /* Reset default border */
+    min-height: 100vh;
+    /* Viewport-relative units */
     min-width: 100%;
 }
 
+/* Show the iframe on screens smaller than 768px (typical mobile screens) */
+@media (max-width: 767px) {
+    #pdfViewer {
+        margin-bottom: 35%;
+    }
+    #pdfViewer object {
+        display: none;
+    }
+
+    #pdfViewer iframe {
+        display: block;
+    }
+    #myButton {
+        margin-bottom: 35%;
+    }
+}
+
+/* Show the object on screens larger than 767px (typical desktop screens) */
 @media (min-width: 768px) {
     .container {
         max-width: 750px;
     }
+
     .pdf-container {
         padding: 20px;
     }
+
     .backToHome-component {
         margin-bottom: 20px;
     }
 
+    #pdfViewer object {
+        display: block;
+    }
+
+    #pdfViewer iframe {
+        display: none;
+    }
 }
 
 /* Start of switchTheme */
@@ -213,4 +246,5 @@ iframe {
     background: #000000;
     border-radius: 50%;
 }
+
 /* End of switchTheme */
