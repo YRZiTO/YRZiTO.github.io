@@ -1,21 +1,12 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.profile-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-html,
-body {
-    background-color: #1f2937;
-    /* height: 100%; */
-}
-
-.fa-heart {
-    color: red;
-}
-
-.fa-heart:hover {
-    color: #69359c;
+.profile {
+    text-align: center;
 }
 
 .avatar {
@@ -27,8 +18,40 @@ body {
     margin-top: 10%;
 }
 
+.avatar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
 .headline {
-    margin-top: 1%;
+    font-size: 34px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.description {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #ffffff1a;
+    border-radius: 25px;
+    display: inline-block;
+    max-width: 93%;
+}
+
+.fa-heart {
+    color: #ff0000;
+}
+
+.fa-heart:hover {
+    color: #69359c;
 }
 
 /* .socials {
@@ -37,7 +60,7 @@ body {
 } */
 
 #github {
-    color: white;
+    color: #ffffff;
 }
 
 #github:hover {
@@ -45,7 +68,7 @@ body {
 }
 
 #twitter {
-    color: white;
+    color: #ffffff;
 }
 
 #twitter:hover {
@@ -53,7 +76,7 @@ body {
 }
 
 #linkedin {
-    color: white;
+    color: #ffffff;
 }
 
 #linkedin:hover {
@@ -61,11 +84,11 @@ body {
 }
 
 #email {
-    color: white;
+    color: #ffffff;
 }
 
 #email:hover {
-    color: brown;
+    color: #a52a2a;
 }
 
 #myButton {
@@ -73,49 +96,91 @@ body {
     margin-bottom: 10%;
 }
 
+.btn-primary,
+.btn-primary:visited {
+    background-color: #008080 !important;
+    border-color: #054242;
+}
+.btn-primary:hover {
+    background-color: #005959 !important;
+    border-color: #005959;
 
-#backToHome {
-    color: white;
-    cursor: pointer;
-    white-space: nowrap;
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-left: 86%;
+}
+.btn-primary:active{
+    background-color: #008080 !important;
+    border-width: 5px;
+}
+
+.backToHome-component {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.backToHome-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.backToHome-link:hover {
+    background-color: #e9ecef;
+    color: teal;
+}
+
+.backToHome-icon {
+    margin-right: 10px;
 }
 
 #pdfViewer {
-    height: 100vh;
     width: 100%;
-    background-color: white;
-    margin-top: 5%;
-    margin-left: 0%;
-    margin-right: 0%;
+    max-width: 1046px;
+    height: 100vh;
+    /* margin-top: 5%; */
     margin-bottom: 5%;
+    overflow: auto; /* Enable scrolling if necessary */
 }
+
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 object {
     display: block;
     margin: 0 auto;
     width: 100%;
     height: 100vh;
 }
+
 iframe {
-    display: block;
-    /* iframes are inline by default */
-    background: white;
-    border: none;
-    /* Reset default border */
-    min-height: 100vh;
-    /* Viewport-relative units */
+    display: block; /* iframes are inline by default */
+    background: #ffffff;
+    border: none; /* Reset default border */
+    min-height: 100vh; /* Viewport-relative units */
     min-width: 100%;
-} 
-#topEmptySpace {
-    margin-bottom: 2.5%;
 }
 
-#bottomEmptySpace {
-    margin-top: 5%;
-}
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+    .pdf-container {
+        padding: 20px;
+    }
+    .backToHome-component {
+        margin-bottom: 20px;
+    }
 
+}
 
 /* Start of switchTheme */
 .switchTheme {
@@ -136,16 +201,15 @@ iframe {
 }
 
 .fa-sun:hover {
-    color: yellow;
-    background: black;
+    color: #ffff00;
+    background: #000000;
     border-radius: 50%;
 }
 
 .fa-sun {
     cursor: pointer;
-    color: white;
-    background: black;
+    color: #ffffff;
+    background: #000000;
     border-radius: 50%;
 }
-
 /* End of switchTheme */
