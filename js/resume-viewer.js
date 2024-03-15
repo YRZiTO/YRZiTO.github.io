@@ -1,6 +1,6 @@
 // URL of the PDF file
 // var pdfUrl = 'https://raw.githubusercontent.com/YRZiTO/YRZiTO.github.io/main/resume/resume.pdf';
-var pdfUrl = '../resume/resume.pdf';
+var pdfUrl = '/resume/resume.pdf';
 
 // Function to check if the device is mobile
 function isMobileDevice() {

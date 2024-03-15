@@ -21,6 +21,6 @@ function updateResumeLink(pdfUrl) {
 // Call the function when the page loads
 window.onload = function () {
     // var pdfUrl = 'https://raw.githubusercontent.com/YRZiTO/YRZiTO.github.io/main/resume/resume.pdf';
-    var pdfUrl = '../resume/resume.pdf';
+    var pdfUrl = '/resume/resume.pdf';
     updateResumeLink(pdfUrl);
 };
