@@ -1,0 +1,21 @@
+{
+    "name": "Yousif's Portfolio",
+    "short_name": "Yousif's Portfolio",
+    "description": "Yousif Zito personal portfolio.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1F2937",
+    "theme_color": "#2A2A2E",
+    "icons": [
+        {
+            "src": "favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
